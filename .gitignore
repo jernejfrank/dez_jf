@@ -133,4 +133,5 @@ cython_debug/
 .vscode/
 
 # Data
-datasets/
+*.csv
+ny_taxi_pg_db/

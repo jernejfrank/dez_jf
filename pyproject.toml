@@ -1,12 +1,18 @@
 [project]
 name = "dez-jf"
 version = "0.1.0"
-description = "Add your description here"
+description = "See README"
 readme = "README.md"
 requires-python = ">=3.12"
 
 dependencies = [
+    "marimo[sql]>=0.10.12",
     "numpy>=2.2.0",
+    "pandas>=2.2.3",
+    "pgcli>=4.1.0",
+    "psycopg2>=2.9.10",
+    "sqlalchemy>=2.0.37",
+    "tqdm>=4.67.1",
 ]
 
 [tool.uv]
